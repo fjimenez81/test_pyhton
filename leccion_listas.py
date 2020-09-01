@@ -1,0 +1,12 @@
+miLista=["Maria","Pepe","Marta","Antonio"]
+miLista.append("Sandra")
+miLista.insert(3,"Jorge")
+miLista.extend(["Alex","Fernado","Rosa"])
+miLista.remove("Sandra")
+miLista.pop()
+print(miLista[:])
+print(miLista[0])
+print(miLista[2:])
+print(miLista.index("Fernado"))
+print("Pepe" in miLista)
+print("Jose"in miLista)
